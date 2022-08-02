@@ -1,6 +1,6 @@
 # Basic E-commerce Website for small businesses 
 
-This project is created for Maa Tara Computers to showcase their product
+This project is created for Maa Tara Computers to showcase their products.
 
 Website [https://maataracomputers.co.in/](https://maataracomputers.co.in/)
 
