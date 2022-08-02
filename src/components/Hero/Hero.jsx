@@ -5,7 +5,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { BsArrowRightCircle } from "react-icons/bs";
 import hero from "../../assets/images/hero.jpg";
 import { NavLink } from "react-router-dom";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Slide, Fade, AttentionSeeker } from "react-awesome-reveal";
+
 
 export default function Hero() {
   return (
@@ -70,13 +71,15 @@ export default function Hero() {
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">
-                      <NavLink
-                        to="/products"
-                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                      >
-                        Explore Our Products
-                        <BsArrowRightCircle className=" inline text-2xl ml-4 " />
-                      </NavLink>
+                      <AttentionSeeker effect="tada">
+                        <NavLink
+                          to="/products"
+                          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                        >
+                          Explore Our Products
+                          <BsArrowRightCircle className=" inline text-2xl ml-4 " />
+                        </NavLink>
+                      </AttentionSeeker>
                     </div>
                   </div>
                 </Fade>
