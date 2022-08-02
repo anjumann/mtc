@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Basic E-commerce Website for small businesses 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created for Maa Tara Computers to showcase their product
+
+Website [https://maataracomputers.co.in/](https://maataracomputers.co.in/)
 
 ## Available Scripts
 
