@@ -23,9 +23,9 @@ const Product = () => {
           Cards
         </h2>
         <span className="font-semibold text-lg text-primary mb-2 block">
-          All type of Stamp
+          All type of Cards
         </span>
-        <SimpleProductList products={StampProductData} />
+        <SimpleProductList products={CardsProductData} />
         <div className="w-[80vw] h-1 bg-white rounded-full mx-auto" />
       </div>
       {/* Other */}
