@@ -1,6 +1,7 @@
 import React from "react";
 import {HiOutlineOfficeBuilding, HiOutlineMail} from 'react-icons/hi'
-import {BsTelephoneForward} from 'react-icons/bs'
+import {BsTelephoneForward, } from 'react-icons/bs'
+import {BiMap} from 'react-icons/bi'
 
 const Footer = () => {
   const products = [
@@ -24,9 +25,9 @@ const Footer = () => {
 
   const contact = [
     {
-      item: "Narhan",
-      link: "/",
-      icon: <HiOutlineOfficeBuilding className="inline mr-4 " />,
+      item: "Maa Tara Computer and Stationery",
+      link: "https://www.google.com/maps/place/Maa+Tara+Computer+and+Stationery/@25.6926854,85.9985542,15z/data=!4m5!3m4!1s0x0:0xea6d10bd115a2f7d!8m2!3d25.6927102!4d85.9985612",
+      icon: <BiMap className="inline mr-4 " />,
     },
     {
       item: "9934809968",
@@ -38,11 +39,11 @@ const Footer = () => {
       link: "mailto:maataracomputer3@gmail.com",
       icon: <HiOutlineMail className="inline mr-4 " />,
     },
-    {
-      item: "Narhan",
-      link: "/",
-      icon: <HiOutlineOfficeBuilding className="inline mr-4 " />,
-    },
+    // {
+    //   item: "Narhan",
+    //   link: "/",
+    //   icon: <HiOutlineOfficeBuilding className="inline mr-4 " />,
+    // },
   ];
 
   return (

@@ -2,8 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./view/Landing";
 import { Routes, Route } from 'react-router-dom'
-import StampProduct from "./view/StampProduct";
-import Footer from "./components/Footer/Footer";
+import Product from "./components/products/Product";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/stamp" element={<StampProduct />} />
+        <Route path="/products" element={ <Product/> } />
       </Routes>
       
     </>

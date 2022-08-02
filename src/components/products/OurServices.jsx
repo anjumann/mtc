@@ -1,5 +1,6 @@
 import React from "react";
 import { GiStamper } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 import { SiReadthedocs } from "react-icons/si";
 
 const OurServices = () => {
@@ -59,7 +60,6 @@ const OurServices = () => {
                 >
                   What We Offer
                 </h2>
-                
               </div>
             </div>
           </div>
@@ -67,7 +67,11 @@ const OurServices = () => {
             {Services.map((index, key) => {
               return (
                 <>
-                  <div className="w-full md:w-1/2 lg:w-1/3 px-4" key={key}>
+                  <NavLink
+                    to="/products"
+                    className="w-full md:w-1/2 lg:w-1/3 px-4"
+                    key={key}
+                  >
                     <div
                       className="
                p-10
@@ -106,7 +110,7 @@ const OurServices = () => {
                         {index.desc}
                       </p>
                     </div>
-                  </div>
+                  </NavLink>
                 </>
               );
             })}
