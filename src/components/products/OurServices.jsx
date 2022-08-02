@@ -1,6 +1,7 @@
 import React from "react";
 import { GiStamper } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import { Zoom } from "react-awesome-reveal";
 import { SiReadthedocs } from "react-icons/si";
 
 const OurServices = () => {
@@ -54,8 +55,9 @@ const OurServices = () => {
                   text-3xl
                   sm:text-4xl
                   md:text-[40px]
-                  text-dark
+                  text-indigo-600
                   mb-4
+
                   "
                 >
                   What We Offer
@@ -71,7 +73,8 @@ const OurServices = () => {
                     to="/products"
                     className="w-full md:w-1/2 lg:w-1/3 px-4"
                     key={key}
-                  >
+                    >
+                    <Zoom>
                     <div
                       className="
                p-10
@@ -110,6 +113,7 @@ const OurServices = () => {
                         {index.desc}
                       </p>
                     </div>
+                  </Zoom>
                   </NavLink>
                 </>
               );

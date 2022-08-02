@@ -1,14 +1,14 @@
 import React from "react";
 import SimpleProductList from "./SimpleProductList";
 import { StampProductData, CardsProductData } from "./ProductConst";
-import Footer from '../Footer/Footer'
+import Footer from "../Footer/Footer";
 
 const Product = () => {
   return (
     <div className="text-center mx-auto  bg-gray-200 ">
       {/* Stamp */}
       <div className="pt-6">
-        <h2 className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+        <h2 className=" text-indigo-700 font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
           STAMP
         </h2>
         <span className="font-semibold text-lg text-primary mb-2 block">
@@ -19,7 +19,7 @@ const Product = () => {
       </div>
       {/* Card  */}
       <div className="pt-6">
-        <h2 className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+        <h2 className=" text-indigo-700 font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
           Cards
         </h2>
         <span className="font-semibold text-lg text-primary mb-2 block">
@@ -30,7 +30,7 @@ const Product = () => {
       </div>
       {/* Other */}
       <div className="pt-6">
-        <h2 className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+        <h2 className=" text-indigo-700 font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
           STAMP
         </h2>
         <span className="font-semibold text-lg text-primary mb-2 block">
