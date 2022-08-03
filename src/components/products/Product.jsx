@@ -12,53 +12,65 @@ import {
 } from "./ProductConst";
 import Footer from "../Footer/Footer";
 
+// icons
+import { GiStamper } from "react-icons/gi";
+import { SiReadthedocs } from "react-icons/si";
+import { HiOutlinePrinter } from "react-icons/hi";
+import { FcInvite } from "react-icons/fc";
+
+
+export const ProductList = [
+  {
+    title: "stamp",
+    subtitle: "all type of stamps",
+    icons: <img src='./images/icons/rubber-stamp.png' className="h-full" alt="" /> ,
+    data: [StampProductData],
+  },
+  {
+    title: "offset Printing",
+    subtitle: "student/employee id cards",
+    icons: <img src='./images/icons/offset.png' className="h-full" alt="" /> ,
+    data: [OffSetData],
+  },
+  {
+    title: "cards",
+    subtitle: "all types of cards",
+    icons: <img src='./images/icons/wedding-invitation.png' className="h-full" alt="" /> ,
+    data: [CardsProductData],
+  },
+  {
+    title: "id cards",
+    subtitle: "student/employee id cards",
+    icons: <img src='./images/icons/idcard.png' className="h-full" alt="" /> ,
+    data: [IdCardData],
+  },
+  {
+    title: "Typing ",
+    subtitle: "hindi/english typing",
+    icons: <img src='./images/icons/typing.png' className="h-full" alt="" /> ,
+    data: [TypingData],
+  },
+  {
+    title: "Photo copy",
+    subtitle: "A3/A4 paper",
+    icons: <img src='./images/icons/xerox.png' className="h-full" alt="" /> ,
+    data: [PhotoCopyData],
+  },
+  {
+    title: "paper binding",
+    subtitle: "binding",
+    icons: <img src='./images/icons/binding.png' className="h-full" alt="" /> ,
+    data: [BookBindingData],
+  },
+  {
+    title: "notebook",
+    subtitle: "all range of notebooks",
+    icons: <img src='./images/icons/notebook.png' className="h-full" alt="" /> ,
+    data: [NoteBookData],
+  },
+];
+
 const Product = () => {
-  const ProductList = [
-    {
-      title: "stamp",
-      subtitle: "all type of stamps",
-      data: [StampProductData],
-    },
-    {
-      title: "offset Printing",
-      subtitle: "student/employee id cards",
-      data: [OffSetData],
-    },
-    {
-      title: "cards",
-      subtitle: "all types of cards",
-      data: [CardsProductData],
-    },
-    {
-      title: "id cards",
-      subtitle: "student/employee id cards",
-      data: [IdCardData],
-    },
-    {
-      title: "Typing ",
-      subtitle: "hindi/english typing",
-      data: [TypingData],
-    },
-    {
-      title: "Photo copy",
-      subtitle: "A3/A4 paper",
-      data: [PhotoCopyData],
-    },
-    {
-      title: "paper binding",
-      subtitle: "binding",
-      data: [BookBindingData],
-    },
-    {
-      title: "notebook",
-      subtitle: "all range of notebooks",
-      data: [NoteBookData],
-    },
-
-  ];
-
- 
-
   return (
     <div className="text-center mx-auto  bg-gray-200 ">
       {/* product */}

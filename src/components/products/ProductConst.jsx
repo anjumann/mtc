@@ -84,7 +84,6 @@ export const CardsProductData = [
   },
 ];
 
-
 export const IdCardData = [
   {
     id: 1,

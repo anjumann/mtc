@@ -1,42 +1,11 @@
 import React from "react";
-import { GiStamper } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 import { Zoom } from "react-awesome-reveal";
-import { SiReadthedocs } from "react-icons/si";
+import {ProductList} from './Product'
 
 const OurServices = () => {
-  const Services = [
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-    {
-      title: "Hindi/English Typing",
-      desc: "We typing any type of documents",
-      icons: <SiReadthedocs className="inline text-8xl" />,
-    },
-  ];
+  
+
 
   return (
     <>
@@ -50,70 +19,37 @@ const OurServices = () => {
                   Our Services
                 </span>
                 <h2
-                  className="
-                  font-bold
-                  text-3xl
-                  sm:text-4xl
-                  md:text-[40px]
-                  text-indigo-600
-                  mb-4
-
-                  "
-                >
+                  className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-indigo-600 mb-4">
                   What We Offer
                 </h2>
               </div>
             </div>
           </div>
           <div className="flex flex-wrap -mx-4">
-            {Services.map((index, key) => {
+            {ProductList.map((index, key) => {
               return (
                 <>
                   <NavLink
                     to="/products"
                     className="w-full md:w-1/2 lg:w-1/3 px-4"
                     key={key}
-                    >
+                  >
                     <Zoom>
-                    <div
-                      className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-                bg-white
-               hover:scale-105
-               hover:shadow-2xl
-               transition ease-in-out delay-150
-               shadow-lg
-               mb-8
-               "
-                    >
                       <div
-                        className="
-                  w-[90px]
-                  h-[90px]
-                  flex
-                  items-center
-                  justify-center
-                  rounded-2xl
-                  mb-8
-                  bg-indigo-600
-                  p-3
-                  text-gray-100
-                  
-                  "
+                        className=" p-10 md:px-7 xl:px-10 rounded-[20px]  bg-white hover:scale-105 hover:shadow-2xl transition ease-in-out delay-150 shadow-lg mb-8"
                       >
-                        {index.icons}
+                        <div
+                          className=" w-[90px] h-[90px] flex items-center justify-center rounded-2xl mb-8 bg-none border-2 border-indigo-600 p-3 text-gray-100">
+                          {index.icons}
+                        </div>
+                        <h4 className="text-xl text-black font-bold mb-3 uppercase ">
+                          {index.title}
+                        </h4>
+                        <p className="text-slate-700 font-semibold capitalize ">
+                          {index.subtitle}
+                        </p>
                       </div>
-                      <h4 className="text-xl text-black font-bold mb-3">
-                        {index.title}
-                      </h4>
-                      <p className="text-slate-700 font-semibold">
-                        {index.desc}
-                      </p>
-                    </div>
-                  </Zoom>
+                    </Zoom>
                   </NavLink>
                 </>
               );
