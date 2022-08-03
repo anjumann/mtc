@@ -16,16 +16,7 @@ const navigation = [
     href: "products",
     current: false,
   },
-  // {
-  //   name: "Contact Us",
-  //   href: "#",
-  //   current: false,
-  // },
-  // {
-  //   name: "Calendar",
-  //   href: "#",
-  //   current: false,
-  // },
+  
 ];
 
 function classNames(...classes) {
@@ -34,7 +25,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-200 drop-shadow-lg ">
+    <Disclosure as="nav" className="bg-gray-200 drop-shadow-lg sticky top-0 z-50 ">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

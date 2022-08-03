@@ -70,8 +70,7 @@ const Footer = () => {
               Maa Tara Computers
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Printing Press provides Digital Printing, Offset Printing, Stamping, Paper Binding and other similar services
             </p>
           </div>
           <div className="">
