@@ -78,7 +78,7 @@ const Product = () => {
         return (
           <>
             <div key={key} className="pt-6">
-              <h2 className=" text-indigo-700 font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 uppercase ">
+              <h2 className=" text-red-700 font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 uppercase ">
                 {index.title}
               </h2>
               <span className="font-semibold text-lg text-primary mb-2 block capitalize ">

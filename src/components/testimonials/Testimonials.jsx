@@ -26,7 +26,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="mb-8 text-center">
-        <h2 className="text-4xl font-bold text-indigo-600">Testimonials</h2>
+        <h2 className="text-4xl font-bold text-red-600">Testimonials</h2>
         <p className="text-lg text-gray-600">What others say about us</p>
       </div>
       <div className="lg:grid lg:grid-cols-3 lg:gap-x-6">
@@ -44,7 +44,7 @@ const Testimonials = () => {
                         {index.message}
                       </p>
                       <div className="flex flex-col items-center justify-center">
-                        <h5 className="font-bold text-indigo-600">
+                        <h5 className="font-bold text-red-600">
                           {index.name}
                         </h5>
                         <p className="text-sm text-gray-600">

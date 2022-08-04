@@ -43,7 +43,7 @@ export default function Hero() {
                       <img className="h-8 w-auto z-10" src={hero} alt="" />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -60,7 +60,7 @@ export default function Hero() {
                 <Fade>
                   <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline">One Place For </span>{" "}
-                    <span className="block text-indigo-600 xl:inline">
+                    <span className="block text-red-600 xl:inline">
                       Your Printing Solutions
                     </span>
                   </h1>
@@ -72,7 +72,7 @@ export default function Hero() {
                       <AttentionSeeker effect="tada">
                         <NavLink
                           to="/products"
-                          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 hover:animate-bounce "
+                          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10 hover:animate-bounce "
                         >
                           Explore Our Products
                           <BsArrowRightCircle className=" inline text-2xl ml-4 " />

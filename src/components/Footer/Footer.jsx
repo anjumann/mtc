@@ -1,6 +1,6 @@
 import React from "react";
 import {HiOutlineOfficeBuilding, HiOutlineMail} from 'react-icons/hi'
-import {BsTelephoneForward, } from 'react-icons/bs'
+import {BsTelephoneForward,BsWhatsapp } from 'react-icons/bs'
 import {BiMap} from 'react-icons/bi'
 
 const Footer = () => {
@@ -39,11 +39,11 @@ const Footer = () => {
       link: "mailto:maataracomputer3@gmail.com",
       icon: <HiOutlineMail className="inline mr-4 " />,
     },
-    // {
-    //   item: "Narhan",
-    //   link: "/",
-    //   icon: <HiOutlineOfficeBuilding className="inline mr-4 " />,
-    // },
+    {
+      item: "9934809968",
+      link: 'https://api.whatsapp.com/send?phone=919934809968&text=Hi!',
+      icon: <BsWhatsapp className="inline mr-4 " />,
+    },
   ];
 
   return (
@@ -90,31 +90,7 @@ const Footer = () => {
               );
             })}
           </div>
-          <div className="">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-              Useful links
-            </h6>
-            <p className="mb-4">
-              <a href="#!" className="text-gray-600">
-                Pricing
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="#!" className="text-gray-600">
-                Settings
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="#!" className="text-gray-600">
-                Orders
-              </a>
-            </p>
-            <p>
-              <a href="#!" className="text-gray-600">
-                Help
-              </a>
-            </p>
-          </div>
+          
           <div className="">
             <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Contact

@@ -19,7 +19,7 @@ const OurServices = () => {
                   Our Services
                 </span>
                 <h2
-                  className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-indigo-600 mb-4">
+                  className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-red-600 mb-4">
                   What We Offer
                 </h2>
               </div>
@@ -39,7 +39,7 @@ const OurServices = () => {
                         className=" p-10 md:px-7 xl:px-10 rounded-[20px]  bg-white hover:scale-105 hover:shadow-2xl transition ease-in-out delay-150 shadow-lg mb-8"
                       >
                         <div
-                          className=" w-[90px] h-[90px] flex items-center justify-center rounded-2xl mb-8 bg-none border-2 border-indigo-600 p-3 text-gray-100">
+                          className=" w-[90px] h-[90px] flex items-center justify-center rounded-2xl mb-8 bg-none border-2 border-red-600 p-3 text-gray-100">
                           {index.icons}
                         </div>
                         <h4 className="text-xl text-black font-bold mb-3 uppercase ">

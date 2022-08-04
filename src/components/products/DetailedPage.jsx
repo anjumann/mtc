@@ -49,7 +49,7 @@ const DetailedPage = () => {
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
                 {itemDetails[0].name}
               </h1>
-              <div className="flex mb-4"></div>
+              <div className="flex mb-4" />
               <p className="leading-relaxed">{itemDetails[0].desc}</p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5" />
 
@@ -57,11 +57,13 @@ const DetailedPage = () => {
                 <span className="title-font font-medium text-2xl text-gray-900">
                   {itemDetails[0].price}
                 </span>
-                <button className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
-                  <a href="https://api.whatsapp.com/send?phone=919934809968&text=Hi!">
-                    Button
-                  </a>
-                </button>
+                <a
+                  target="blank"
+                  href="https://api.whatsapp.com/send?phone=919934809968&text=Hi!"
+                  className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded"
+                >
+                  Button
+                </a>
               </div>
             </div>
           </div>
