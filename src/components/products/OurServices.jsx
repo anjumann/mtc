@@ -31,7 +31,7 @@ const OurServices = () => {
                 <>
                   <NavLink
                     to="/products"
-                    className="w-full md:w-1/2 lg:w-1/3 px-4"
+                    className="w-full md:w-1/2 lg:w-1/4 px-4  "
                     key={key}
                   >
                     <Zoom>

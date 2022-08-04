@@ -65,7 +65,7 @@ export default function Hero() {
                     </span>
                   </h1>
                   <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  We are a printing house that has been in the business of offering a host of offset printing, stamp, paper book binding, Stationary and other similar services. Our company being located in Narhan; we have over 20 years of experience in this sector.
+                  We are a printing house that has been in the business of offering a host of offset printing, stamp, paper book binding, Stationary and other similar services. Our company being located in Narhan; we have over 21 years of experience in this sector.
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">

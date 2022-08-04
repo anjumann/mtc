@@ -1,6 +1,14 @@
 import React from "react";
+import { useParams } from "react-router-dom";
+
 
 const DetailedPage = () => {
+
+  const {item} = useParams();
+  const {id} = useParams();
+  console.log("products/"+item+"/"+ id);
+
+
   return (
     <>
       {/* <!-- component --> */}
