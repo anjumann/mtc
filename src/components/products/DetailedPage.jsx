@@ -9,6 +9,7 @@ import {
   NoteBookData,
   BookBindingData,
   IdCardData,
+  OnlineForm,
 } from "./ProductConst";
 
 const DetailedPage = () => {
@@ -22,7 +23,8 @@ const DetailedPage = () => {
     PhotoCopyData,
     NoteBookData,
     BookBindingData,
-    IdCardData
+    IdCardData,
+    OnlineForm,
   );
 
   const itemDetails = AllInOneArr.filter((data) => {

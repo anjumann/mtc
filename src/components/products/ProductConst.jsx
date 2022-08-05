@@ -168,3 +168,17 @@ export const TypingData = [
       "Typing",
   },
 ];
+
+export const OnlineForm = [
+  {
+    id: 1,
+    name: "Online Form fillup",
+    desc: "Online Form fillup available",
+    url: "/products/onlineform/1",
+    price: "₹30",
+    imageSrc:
+      "/images/products/onlineForm.jpg",
+    imageAlt:
+      "Typing",
+  },
+];
