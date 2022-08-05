@@ -44,101 +44,98 @@ export const StampProductData = [
 export const CardsProductData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
-    price: "$48",
+    name: "Wedding/Invitation Card",
+    desc: "All types of Wedding and Invitation cards are available here. Price changes according to various different cards.",
+    price: "₹150 per 100 cards(Standard Cards) ",
     url: "/products/card/1",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    imageSrc:"/images/products/weddingCards/weddingCards.jpg",
+    imageAlt:"Wedding/Invitation Card",
   },
   {
     id: 2,
-    name: "Nomad Tumbler",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "Visiting Cards",
+    desc: "All type of Vising Cards available here. ₹900 per 1000 cards or ₹600 per 500 (Multi colour).₹110 per 100 card (Single colour/Unicolour) ",
     url: "/products/card/2",
-    price: "$35",
+    price: "₹110 per 100 card",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "/images/products/visitingCards/visitingCard.jpg",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-  },
-  {
-    id: 3,
-    name: "Focus Paper Refill",
-    name: "Nomad Tumbler",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
-    url: "/products/card/3",
-    price: "$89",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 4,
-    name: "Machined Mechanical Pencil",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
-    url: "/products/card/4",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+      "Visiting Cards",
   },
 ];
 
 export const IdCardData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "ID cards",
+    desc: "All types of ID cards are available here. Student/Employee ID cards.",
     url: "/products/idcard/1",
-    price: "$48",
+    price: "₹25 per piece ",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/products/idCards.jpg",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "ID cards",
   },
 ];
 
 export const BookBindingData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "Book Binding",
+    desc: "All size of book are available for binding",
     url: "/products/bookbinding/1",
-    price: "$48",
+    price: "₹10 per book",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/products/bookbinding.jpg",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "book binding",
   },
 ];
 
 export const NoteBookData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "Kilo Copy (Notebook according to weight) ",
+    desc: "Decent Quality Notebook available Sold according to weight ₹90/KG.",
     url: "/products/notebook/1",
-    price: "$48",
+    price: "₹90 per KG",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/products/kilocopy.jpg",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "notebook",
+  },
+  {
+    id: 2,
+    name: "Notebook at cheaper price",
+    desc: "Notebook of ₹10(market rate) available @ ₹8. Notebook of ₹8(market rate) available @ ₹4 ",
+    url: "/products/notebook/2",
+    price: "₹8, ₹4",
+    imageSrc:
+      "/images/products/kilocopy.jpg",
+    imageAlt:
+      "notebook",
   },
 ];
 export const PhotoCopyData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "Photo Copy",
+    desc: "A4 - ₹2 (B/W) & ₹5(colour). A3 - ₹5 (B/W). ",
     url: "/products/photocopy/1",
-    price: "$48",
+    price: "₹2, ₹5",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/products/xerox.jpg",
+    imageAlt:
+      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+  },
+  {
+    id: 2,
+    name: "Print out",
+    desc: "B/W and colour printing available.",
+    url: "/products/photocopy/2",
+    price: "₹5",
+    imageSrc:
+      "/images/products/printing.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -148,7 +145,7 @@ export const OffSetData = [
   {
     id: 1,
     name: "OFFSET printing",
-    desc: "All types of pages available here. Addition charge according to Page selected. Condition applied.",
+    desc: "All types of pages available here. Addition charge according to Page selected. Other services like cutting, binding, numbering are also available HERE. ALl paper size ( legal - A4 ) are availalbe. Condition applied.",
     url: "/products/offsetdata/1",
     price: "₹200 per 1000 pages",
     imageSrc:
@@ -161,13 +158,13 @@ export const OffSetData = [
 export const TypingData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "Hindi/English Typing",
+    desc: "Hindi English Typing",
     url: "/products/typing/1",
-    price: "$48",
+    price: "₹25 per page",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/icons/typing.png",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "Typing",
   },
 ];
