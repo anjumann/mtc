@@ -29,7 +29,7 @@ const DetailedPage = () => {
     return data.url === "/products/" + item + "/" + id;
   });
 
-  console.log(itemDetails);
+  // console.log(itemDetails);
 
   return (
     <>
@@ -62,7 +62,7 @@ const DetailedPage = () => {
                   href="https://api.whatsapp.com/send?phone=919934809968&text=Hi!"
                   className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded"
                 >
-                  Button
+                  Order
                 </a>
               </div>
             </div>

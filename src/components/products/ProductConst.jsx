@@ -2,42 +2,42 @@ export const StampProductData = [
   {
     id: 1,
     name: "Digital Round Stamp",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    desc: "Digital Round Stamp has Pre-filled ink, no need to use ink pad again and again. Refill is also available.",
     price: "₹200",
     url: "/products/stamp/1",
-    imageSrc: "/images/stamp/stamp1.jpg",
+    imageSrc: "/images/products/stamp/stamp1.jpg",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "Digital Round Stamp",
   },
   {
     id: 2,
     name: "Digital Rectangle Stamp",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    desc: "Digital Rectangle Stamp has Pre-filled ink, no need to use ink pad again and again. Refill is also available.",
     price: "₹200",
-    imageSrc: "/images/stamp/digitalSquare.jpg",
+    imageSrc: "/images/products/stamp/digitalSquare.jpg",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
+      "Digital Rectangle Stamp",
     url: "/products/stamp/2",
   },
   {
     id: 3,
     name: "Round Rubber Stamp",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    desc: "Standard Round Stamp. Ink Pad is also available HERE.",
     price: "₹150",
     url: "/products/stamp/3",
-    imageSrc: "/images/stamp/rubberStamp1.jpg",
+    imageSrc: "/images/products/stamp/rubberStamp1.jpg",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
+      "Round Rubber Stamp",
   },
   {
     id: 4,
     name: "Rectangle Rubber Stamp",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    desc: "Standard Rectangle Stamp. Ink Pad is also available HERE.",
     price: "₹25 per Line (Min. ₹50) ",
     url: "/products/stamp/4",
-    imageSrc: "/images/stamp/rubberSquare.jpg",
+    imageSrc: "/images/products/stamp/rubberSquare.jpg",
     imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+      "Rectangle Rubber Stamp",
   },
 ];
 
@@ -147,14 +147,14 @@ export const PhotoCopyData = [
 export const OffSetData = [
   {
     id: 1,
-    name: "Earthen Bottle",
-    desc: "Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle",
+    name: "OFFSET printing",
+    desc: "All types of pages available here. Addition charge according to Page selected. Condition applied.",
     url: "/products/offsetdata/1",
-    price: "$48",
+    price: "₹200 per 1000 pages",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "/images/products/offset/offset.jpg",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "OFFSET printing",
   },
 ];
 
