@@ -2,24 +2,44 @@ import React from "react";
 import {HiOutlineOfficeBuilding, HiOutlineMail} from 'react-icons/hi'
 import {BsTelephoneForward,BsWhatsapp } from 'react-icons/bs'
 import {BiMap} from 'react-icons/bi'
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const products = [
     {
       item: "Marraige Cards",
-      link: "/",
+      link: "/products/card/1",
     },
     {
       item: "Digital Stamp",
-      link: "/",
+      link: "/products/stamp/2",
     },
     {
       item: "Stamp (Mohar)",
-      link: "/",
+      link: "/products/stamp/4",
     },
     {
       item: "Hindi/English Typing",
-      link: "/",
+      link: "/products/typing/1",
+    },
+  ];
+
+  const products2 = [
+    {
+      item: "OFFSET PRINTING",
+      link: "/products/offsetdata/1",
+    },
+    {
+      item: "PAPER BINDING",
+      link: "/products/bookbinding/1",
+    },
+    {
+      item: "ID CARDS",
+      link: "/products/idcard/1",
+    },
+    {
+      item: "PAPER BINDING",
+      link: "/products/bookbinding/1",
     },
   ];
 
@@ -74,11 +94,29 @@ const Footer = () => {
             </p>
           </div>
           <div className="">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            <NavLink to='/products'  className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Products
-            </h6>
+            </NavLink>
 
             {products.map((index, key) => {
+              return (
+                <>
+                  <p key={key} className="mb-4">
+                    <a href={index.link} className="text-gray-600">
+                      {index.item}
+                    </a>
+                  </p>
+                </>
+              );
+            })}
+          </div>
+
+          <div className="">
+            <NavLink to='/products'  className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+              Products
+            </NavLink>
+
+            {products2.map((index, key) => {
               return (
                 <>
                   <p key={key} className="mb-4">

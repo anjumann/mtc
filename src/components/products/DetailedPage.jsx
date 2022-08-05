@@ -62,7 +62,7 @@ const DetailedPage = () => {
                 <a
                   target="blank"
                   href={`https://api.whatsapp.com/send?phone=919934809968&text=${itemDetails[0].name}`}
-                  className="flex ml-auto text-white bg-red-500 border-0 py-2 sm:px-2 md:px-6 focus:outline-none hover:bg-red-600 rounded"
+                  className="flex ml-auto text-white bg-red-500 border-0 py-2 sm:px-3 md:px-6 focus:outline-none hover:bg-red-600 rounded"
                 >
                   Order
                   <img src="/images/icons/whatsapp.png" className=" ml-1 md:ml-3 h-5" alt="" />

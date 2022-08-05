@@ -11,7 +11,7 @@ const Landing = () => {
         <Hero id='hero' />
         <div className="w-[90vw] mx-auto">
           <OurServices id='services' />
-          <Testimonials id='testimonials'  />
+          {/* <Testimonials id='testimonials'  /> */}
         </div>
         {/* <div className="w-[95vw] my-10 mx-auto ">
           <ContactUs />
