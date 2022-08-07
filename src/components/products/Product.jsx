@@ -33,7 +33,7 @@ export const ProductList = [
     subtitle: "all types of cards",
     icons: (
       <img
-        src="./images/icons/wedding-invitation.png"
+        src="./images/icons/card.jpg"
         className="h-full"
         alt=""
       />
@@ -61,7 +61,7 @@ export const ProductList = [
   {
     title: "online form fillup",
     subtitle: "online form fillup",
-    icons: <img src="./images/icons/notebook.png" className="h-full" alt="" />,
+    icons: <img src="./images/icons/form.png" className="h-full" alt="" />,
     data: [OnlineForm],
   },
   {

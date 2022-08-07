@@ -100,7 +100,7 @@ export const NoteBookData = [
     url: "/products/notebook/1",
     price: "₹90 per KG",
     imageSrc:
-      "/images/products/kilocopy.jpg",
+      "/images/products/kiloCopy.jpg",
     imageAlt:
       "notebook",
   },
@@ -111,7 +111,7 @@ export const NoteBookData = [
     url: "/products/notebook/2",
     price: "₹8, ₹4",
     imageSrc:
-      "/images/products/kilocopy.jpg",
+      "/images/products/kiloCopy.jpg",
     imageAlt:
       "notebook",
   },
