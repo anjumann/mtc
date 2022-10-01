@@ -6,33 +6,40 @@ Website [https://maataracomputers.co.in/](https://maataracomputers.co.in/)
 
 Why Every Business Needs A Website?
 
-1.Credibility
+## Credibility
 
-One of the main reasons you should have a website for your business is to increase your organization's credibility. Chances are there are several providers offering a similar service to yours. One way you can stand out is by having a website that looks good and clearly communicates quality information to your consumers.
 
-2.Brand
+> `One of the main reasons you should have a website for our business is to increase your organization's credibility. Chances are there are several providers offering a similar service to yours. One way you can stand out is by having a website that looks good and clearly communicates quality information to your consumers.`
 
-Showcasing your brand to your prospective customers is one of the most important things that you can do. By clearly establishing who you are, what you represent and what you stand for, you increase the chances of your customers buying from you.
+## Brand
 
-3.Leads
 
-Perhaps one of the most intriguing reasons to have a website for your business is because it can increase your chances of getting leads.
+> `Showcasing your brand to your prospective customers is ne of the most important things that you can do. By clearly establishing who you are, what you represent and what you stand for, you increase the chances of your customers buying from you.`
 
-4.Organic Traffic 
+## Leads
 
-Once you're online and have an SEO-optimized website, you have a chance of showing up in Google search results. This means that when people are searching for a product or service, there is a chance your website will show up in the results. This gives you the opportunity to drastically increase your customer base.
 
-5.Updates And Announcements
+>`Perhaps one of the most intriguing reasons to have a ebsite for your business is because it can increase your chances of getting leads.`
 
-Since your website is on 24/7, it's easy to post updates and announcements to your customers. 
+## Organic Traffic 
 
-6.Saving You Time + Customer Service
 
-Many businesses get calls from prospects or existing customers asking simple questions about location and hours of operation. If you miss a call, the customer is left unhappy.
+>`Once you're online and have an SEO-optimized website, ou have a chance of showing up in Google search results. This means that when people are searching for a product or service, there is a chance your website will show up in the results. This gives you the opportunity to drastically increase your customer base.`
 
-7.Digital Marketing
+## Updates And Announcements
 
-If you plan on leveraging digital marketing to increase your leads and grow your business, you'll likely want to drive traffic to a website or landing page.
+
+>`Since your website is on 24/7, it's easy to post updates nd announcements to your customers. `
+
+## Saving You Time + Customer Service
+
+
+>`Many businesses get calls from prospects or existing ustomers asking simple questions about location and hours of operation. If you miss a call, the customer is left unhappy.
+`
+## Digital Marketing
+
+
+>`If you plan on leveraging digital marketing to increase our leads and grow your business, you'll likely want to drive traffic to a website or landing page.`
 
 ## Available Scripts
 
