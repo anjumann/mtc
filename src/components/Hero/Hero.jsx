@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="container px-6 py-16 mx-auto text-center">
         <div className="max-w-[80vw] mx-auto">
           <h1 className="text-3xl font-bold text-gray-800  lg:text-4xl">
-            Building Your Next App with our Awesome components
+            Build your next big thing with us
           </h1>
           <p className="mt-6 text-gray-500 text-2xl">
             We are a printing house that has been in the business of offering a
